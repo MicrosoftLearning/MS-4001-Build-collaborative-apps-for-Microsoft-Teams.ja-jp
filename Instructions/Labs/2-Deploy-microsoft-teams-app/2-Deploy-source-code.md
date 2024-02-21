@@ -8,15 +8,15 @@
 
 2. Teams ツールキット パネルの **[ライフサイクル]** で **[デプロイ]** を選択します。
 
-    :::image type="content" source="../media/deploy-button.png" alt-text="クラウドへのデプロイのリンクが強調表示されているスクリーンショット。":::
+    ![クラウドへのデプロイのリンクが強調表示されているスクリーンショット。](../../media/deploy-button.png)
 
 3. デプロイの確認ダイアログで、**[デプロイ]** を選択します。
 
-    :::image type="content" source="../media/deploy-confirm.png" alt-text="デプロイを確認するダイアログのスクリーンショット":::。
+    ![デプロイを確認するダイアログのスクリーンショット。](../../media/deploy-confirm.png).
 
 4. Visual Studio Code エディターでデプロイが成功したことを確認します。
 
-    :::image type="content" source="../media/deploy-success.png" alt-text="デプロイが成功したことを示すスクリーンショット。":::
+    ![デプロイが成功したことを示すスクリーンショット。](../../media/deploy-success.png)
 
 Teams タブ アプリのコードは、Azure Storage で正常にホストされ、Teams に発行する準備が整いました。
 

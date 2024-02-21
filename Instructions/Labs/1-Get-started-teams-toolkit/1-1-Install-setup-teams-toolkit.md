@@ -8,7 +8,7 @@
 2. サイドバーから**拡張機能**アイコンを選択します。
 3. 検索バーを使用して、**[拡張機能]** セクションで "Teams Toolkit" を検索します。 その後、 **[インストール]** を選択します。
 
-:::image type="content" source="../../media/teams-toolkit-install.png" alt-text="Visual Studio Code への Teams Toolkit インストールのスクリーンショット。":::
+![Visual Studio Code への Teams Toolkit インストールのスクリーンショット。](../../media/teams-toolkit-install.png)
 
 **注**:このモジュールの演習では、Teams Toolkit v5.0.0 を使用します。
 
@@ -22,14 +22,15 @@
 
 ## タスク 3:Teams 用アプリをアップロードするように Microsoft 365 テナントを構成する
 
-次の手順に従って、テナントのカスタム アプリのサイドローディングを有効にします。
+次の手順に従って、テナントのカスタム アプリのアップロードを有効にします。
 
-1. Microsoft 365 管理者の資格情報を使用して、[Microsoft Teams 管理センター](https://admin.teams.microsoft.com)にサインインします。
+1. **Microsoft 365 管理者の資格情報**を使用して、[Microsoft Teams 管理センター](https://admin.teams.microsoft.com)にサインインします。
 
 2. サイドバーから **[Teams アプリ]**、**[セットアップ ポリシー]** の順に選択します。
 
-3. **グローバル (組織全体の既定) ポリシー**を選択し、**カスタム アプリのアップロード**の切り替えをオンにします。 
-   :::image type="content" source="../../media/configure-upload-apps.png" alt-text="カスタム アプリのアップロード構成のスクリーンショット。":::
+3. **グローバル (組織全体の既定) ポリシー**を選択し、**カスタム アプリのアップロード**の切り替えをオンにします。
+
+   ![カスタム アプリのアップロード構成のスクリーンショット。](../../media/configure-upload-apps.png)
 
 4. **保存**ボタンを選択して、変更を保存します。 これで、カスタム アプリのサイドローディングを許可するようにテナントが構成されました。
 
