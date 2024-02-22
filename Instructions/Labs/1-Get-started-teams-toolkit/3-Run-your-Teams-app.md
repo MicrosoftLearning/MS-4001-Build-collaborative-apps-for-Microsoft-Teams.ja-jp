@@ -5,10 +5,14 @@
 ## タスク 1:Microsoft 365 にサインインする
 
 1. Visual Studio Code で、**[Teams Toolkit]** を開き、**[Sign in to Microsoft 365]\(Microsoft 365 にサインインする\)** を選びます。
-    :::image type="content" source="../../media/sign-in.png" alt-text="Microsoft 365 用の Teams Toolkit のサインイン ボタンのスクリーンショット":::
-2. ポップアップ ダイアログで、**[サインイン]** を選びます。 Microsoft 365 アカウントの資格情報でサインインするためのブラウザーが表示されます。  管理者資格情報を入力します。
+
+    ![Teams Toolkit for M365 のサインイン ボタンのスクリーンショット。](../../media/sign-in.png)
+
+2. ポップアップ ダイアログで、**[サインイン]** を選びます。 **Microsoft 365 アカウントの資格情報**でサインインするためのブラウザーが開きます。  管理者資格情報を入力します。
+
 3. 正常にサインインしたら、ブラウザーを閉じて Visual Studio Code に戻ります。 Teams Toolkit のアカウントの下に "Sideloading enabled (サイドローディングが有効です)" というメッセージが表示され、テナントが正しく構成されていることが示されます。**
-    :::image type="content" source="../../media/sideload-enabled.png" alt-text="Teams Toolkit のサイドローディング有効のメッセージを示すスクリーンショット。":::
+
+    ![Teams Toolkit のサイドローディング有効のメッセージを示すスクリーンショット。](../../media/sideload-enabled.png)
 
 ## タスク 2:アプリをローカルで実行する
 
@@ -21,7 +25,9 @@
 5. Teams Toolkit へのサインインに使用したのと同じ **Microsoft 365** アカウントでサインインします。
 6. その後、アプリをインストールするオプションが Teams に表示されます。 **[追加]** を選んで、アプリをプレビューします。
 7. プレビュー中は、アプリの名前の末尾に *local-debug* が付きます。 このサフィックスは、アプリがローカルで実行されていて、デプロイされていないことを示します。
-    :::image type="content" source="../../media/add-teams-app.png" alt-text="Teams アプリをインストールするためのダイアログのスクリーンショット。":::
+
+    ![Teams アプリをインストールするためのダイアログのスクリーンショット。](../../media/add-teams-app.png)
+
 8. プロジェクト構造とアプリの使用およびカスタマイズ方法の詳細については、プロジェクト フォルダーにある **README.md** ファイルを開いてご確認ください。
 
 これで、サンプルから Teams アプリを作成し、ローカルで実行しました。
