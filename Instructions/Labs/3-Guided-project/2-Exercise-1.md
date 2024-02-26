@@ -14,16 +14,16 @@ lab:
 
 ここでの目標は、アプリが次の機能を持つようにすることです:
 
-:::image type="content" source="../../media/contact-details-demo1.png" alt-text="Teams の連絡先詳細のメッセージ拡張機能のスクリーンショット。":::
+![Teams の連絡先詳細のメッセージ拡張機能のスクリーンショット。](../../media/contact-details-demo1.png)
 
 - アプリ ユーザーは、メッセージ拡張機能 UI にユーザーの名前を入力します。
 - アプリは Graph API の `users` エンドポイントを使用して、表示名でユーザーを検索し、結果を一覧表示します。
 - アプリ ユーザーは、検索結果から目的のユーザーを選択する際、Teams のメッセージに目的のカードを挿入できます。
 - カードには、ユーザーの表示名、メール アドレス、電話番号が表示されます
 
-:::image type="content" source="../../media/contact-details-demo2.png" alt-text="Teams の連絡先詳細アプリのスクリーンショット。":::
+![Teams の連絡先詳細アプリのスクリーンショット。](../../media/contact-details-demo2.png)
 
-:::image type="content" source="../../media/contact-details-demo3.png" alt-text="Teams の連絡先詳細アプリのスクリーンショット - メッセージへのカードの挿入。":::
+![Teams の連絡先詳細アプリのスクリーンショット - メッセージへのカードの挿入。](../../media/contact-details-demo3.png)
 
 この演習を完了するには、次のタスクを実行する必要があります。
 
@@ -89,16 +89,16 @@ lab:
 > 注: Azure クラウド リソースをプロビジョニングして Azure にデプロイすると、Azure サブスクリプションで料金が発生する可能性があります。
 
 1. Visual Studio コードで、サイドバーから **[Teams ツールキット]** を選択します。
-2. **[アカウント]** で、Microsoft 365 テナントと Azure アカウントにサインインします。
+2. **[アカウント]** の下で、Microsoft 365 テナントと **Azure アカウント**にサインインします。
 3. **[ライフサイクル]** で、**[プロビジョニング]** を選択します。
-    :::image type="content" source="../../media/toolkit-provision.png" alt-text="Visual Studio Code の Teams Toolkit 拡張機能のスクリーンショット。":::
+    ![Visual Studio Code の Teams Toolkit 拡張機能のスクリーンショット。](../../media/toolkit-provision.png)
 4. リソースをプロビジョニングできるリソース グループを選択するか、**[新しいリソース グループ]** オプションを選択し、プロンプトに従うことにより、新しいリソース グループを作成します。  
-    :::image type="content" source="../../media/new-resource-group.png" alt-text="Teams Toolkit の [リソース グループの選択] メニューのスクリーンショット。":::
+    ![Teams Toolkit の [リソース グループの選択] メニューのスクリーンショット。](../../media/new-resource-group.png)
 5. 選択を確認する最後のダイアログで、**[プロビジョニング]** を選択します。
 
     プロビジョニングが完了すると、Teams Toolkit の `dev` 環境を使用して、Microsoft 365 テナントに新しいアプリ登録が作成されます。 プロビジョニングには時間がかかる場合があります。
 
-    :::image type="content" source="../../media/provisioned-resources-dev.png" alt-text="プロビジョニングされた開発環境を示す Teams Toolkit for Visual Studio Code のスクリーンショット。":::
+    ![プロビジョニングされた開発環境を示す Teams Toolkit for Visual Studio Code のスクリーンショット。](../../media/provisioned-resources-dev.png)
 
 ## タスク 5:Microsoft Graph データを取得するためのアクセス許可を構成する
 
@@ -111,10 +111,10 @@ lab:
 7. **Microsoft Graph** を選択します。
 8. **デリゲートされたアクセス許可**を選択します。
 9. **[ユーザー]** の下に一覧表示されているアクセス許可を検索して、**[User.Read.All]** アクセス許可を選択します。
-    :::image type="content" source="../../media/user-permissions.png" alt-text="Azure portal の Graph アクセス許可のスクリーンショット。":::
+    ![Azure portal の Graph アクセス許可のスクリーンショット。](../../media/user-permissions.png)
 10. **[アクセス許可の追加]** ボタンを選択します
 11. アクセス許可は構成されましたが、管理者の同意が必要です。
-    :::image type="content" source="../../media/configured-permissions-consent.png" alt-text="Azure Portal の [構成されたアクセス許可] ビューのスクリーンショット。":::
+    ![Azure Portal の [構成されたアクセス許可] ビューのスクリーンショット。](../../media/configured-permissions-consent.png)
 12. **[[テナント] に管理者の同意を与えます]** を選択してから、**[はい]** を選択して確認します。
 
 アクセス許可が構成され、同意されました。
@@ -136,12 +136,12 @@ Teams クライアントでアプリをプレビューして、機能をテス�
 1. Teams Toolkit パネルの **[開発]** で、**[Preview Your Teams App (F5)]\(Teams アプリのプレビュー (F5)\)** を選択します。
 2. ドロップダウン メニューで、任意のブラウザーで **[Launch Remote]\(リモート起動\)** するための目的のオプションを選択します。
 
-    :::image type="content" source="../../media/launch-remote.png" alt-text="Teams Toolkit を使用してリモート起動するオプションのスクリーンショット。":::
+    ![Teams Toolkit を使用してリモート起動するオプションのスクリーンショット。](../../media/launch-remote.png)
 
 3. アプリを初めて実行するときに、すべての依存関係がダウンロードされ、アプリがビルドされます。 ビルドが完了すると、ブラウザー ウィンドウが開きます。 このプロセスが完了するまでに 3分から 5 分かかることがあります。
 4. Teams に、アプリの説明とアクセス許可の要件が記載されたウィンドウが表示されます。  **[追加]** を選択して、アプリを追加します。
 
-    :::image type="content" source="../../media/add-contact-details-app.png" alt-text="連絡先詳細アプリをインストールするオプションを示す Teams クライアントのスクリーンショット。":::
+    ![連絡先詳細アプリをインストールするオプションを示す Teams クライアントのスクリーンショット。](../../media/add-contact-details-app.png)
 
 5. メッセージ拡張機能が Teams クライアントに読み込まれたら、表示名でユーザーを検索するために文字を入力します。  結果を選択して、カードを会話に挿入します。
 
