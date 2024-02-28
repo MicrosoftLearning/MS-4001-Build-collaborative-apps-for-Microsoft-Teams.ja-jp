@@ -12,11 +12,11 @@
 
 1. [オプション] で **[タブ]** を選択します。
 
-    :::image type="content" source="../../media/create-teams-tab-app.png" alt-text="タブ アプリに対する Teams Toolkit オプションのスクリーンショット。":::
+    ![タブ アプリに対する Teams Toolkit オプションのスクリーンショット。](../../media/create-teams-tab-app.png)
 
 1. 次に、**[Fluent UI で対応する]** を選択します。
 
-    :::image type="content" source="../../media/create-teams-tab-react.png" alt-text="タブが選択されている Teams Toolkit アプリ テンプレートのスクリーンショット。":::
+    ![タブが選択されている Teams Toolkit アプリ テンプレートのスクリーンショット。](../../media/create-teams-tab-react.png)
 
 1. プログラミング言語のオプションから、**[JavaScript]** を選択します。
 
@@ -26,7 +26,7 @@
 
 1. プロジェクトのスキャフォールディングが開始されます。 プロジェクトがスキャフォールディングされると、新しいプロジェクトが読み込まれた新しい Visual Studio Code ウィンドウが開きます。
 
-    :::image type="content" source="../../media/new-tab-project.png" alt-text="スキャフォールディング後の Teams Toolkit の新しいタブ プロジェクトのスクリーンショット。":::
+    ![スキャフォールディング後の Teams Toolkit の新しいタブ プロジェクトのスクリーンショット。](../../media/new-tab-project.png)
 
 1. Visual Studio Code で、**[実行] > [デバッグの開始]** を選択するか、**F5** キーを押してデバッグ セッションを開始します。
 
@@ -38,15 +38,17 @@
 
 ## タスク 2:Teams Toolkit で Azure にサインインする
 
+お使いの **Azure サブスクリプション**を使用して、Azure にサインインします。
+
 1. アクティビティ バーで、**[Microsoft Teams]** アイコンを選択します。
 
 1. [Teams Toolkit] パネルの **[アカウント]** で、**[Azure にサインイン]** を選択します。
 
-    :::image type="content" source="../../media/sign-into-azure.png" alt-text="Azure にサインインするためのボタンが表示された [Teams Toolkit] パネルのスクリーンショット。":::
+    ![Azure にサインインするためのボタンが表示された [Teams Toolkit] パネルのスクリーンショット。](../../media/sign-into-azure.png)
 
 1. 表示されるダイアログで、**[サインイン]** を選択します。
 
-    :::image type="content" source="../../media/sign-into-azure-alert.png" alt-text="Azure へのサインインを確認するダイアログのスクリーンショット。":::
+    ![Azure へのサインインを確認するダイアログのスクリーンショット。](../../media/sign-into-azure-alert.png)
 
 ## タスク 3:リソースをプロビジョニングする
 
@@ -54,11 +56,11 @@
 
 1. Teams Toolkit パネルの **[ライフサイクル]** で **[プロビジョニング]** を選択します。
 
-    :::image type="content" source="../../media/provision-start.png" alt-text="[デプロイ] セクションの [クラウドでのプロビジョニング] オプションが強調表示されているスクリーンショット。":::
+    ![[デプロイ] セクションの [クラウドでのプロビジョニング] オプションが強調表示されているスクリーンショット。](../../media/provision-start.png)
 
 1. 次に、**[リソース グループを選択します]** メニューの **[新しいリソース グループ]** オプションを選択して、リソースをプロビジョニングしたり、新しいリソース グループを作成したりできるリソース グループを選択する必要があります。
 
-    :::image type="content" source="../../media/resource-group.png" alt-text="新しいリソース グループの作成方法を示すスクリーンショット。":::
+    ![新しいリソース グループの作成方法を示すスクリーンショット。](../../media/resource-group.png)
 
 1. このツールでは、rg-hello-tab0989fd-dev などのリソース グループ名を自動的に提案します。 **Enter** キーを押します。
 
@@ -66,7 +68,7 @@
 
 1. 選択内容を確認するダイアログで、**[プロビジョニング]** を選択します。
 
-    :::image type="content" source="../../media/provision-confirm.png" alt-text="プロビジョニングを確認するダイアログのスクリーンショット。":::
+    ![プロビジョニングを確認するダイアログのスクリーンショット。](../../media/provision-confirm.png)
 
 1. プロビジョニングは、Azure で Teams タブ アプリをホストするために必要なすべてのリソースに対して開始されます。 プロビジョニングには時間がかかる場合があります。
 
