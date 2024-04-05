@@ -53,9 +53,9 @@ Webhook をテストするには、PowerShell を使って Webhook エンドポ�
      Invoke-RestMethod -Method post -ContentType 'Application/Json' -Body '{"text":"Testing the Alerts endpoint."}' -Uri <YOUR WEBHOOK URL>
     ```
 
-## 作業の確認
+## 作業を確認
 
-1. Microsoft Teams クライアントで、構成されたチャネルの **[会話]** タブに移動します。
+1. Microsoft Teams クライアントで、構成されたチャネルの **[投稿]** タブに移動します。
 2. `"Testing the Alerts endpoint"` という `Alerts` からのメッセージが、チャネルに存在することを確認します。
 
  ![Azure portal の [構成されたアクセス許可] ビューのスクリーンショット。](../../media/final-alert-message.png)
