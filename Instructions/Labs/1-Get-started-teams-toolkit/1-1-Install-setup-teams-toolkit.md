@@ -10,7 +10,7 @@
 
 ![Visual Studio Code への Teams Toolkit インストールのスクリーンショット。](../../media/teams-toolkit-install.png)
 
-**注**:このモジュールの演習では、Teams Toolkit v5.0.0 を使用します。
+**注**:このモジュールの演習では、Teams Toolkit v5.6.0 を使用します。 マイナー バージョンは異なる場合があることに注意してください。
 
 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension) から Teams Toolkit をインストールすることもできます。
 
