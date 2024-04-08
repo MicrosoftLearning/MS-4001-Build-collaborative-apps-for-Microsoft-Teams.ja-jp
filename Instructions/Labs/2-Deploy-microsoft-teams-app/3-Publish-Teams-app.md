@@ -6,7 +6,7 @@
 
 1. Visual Studio Code のアクティビティ バーで、**Microsoft Teams アイコン**を選び、**Teams ツールキット パネル**を開きます。
 
-    a. ![Teams ツールキット パネルが開き、[Teams への発行] オプションが強調表示されているスクリーンショット。](../../media/publish-to-teams.png)
+    ![Teams ツールキット パネルが開き、[Teams への発行] オプションが強調表示されているスクリーンショット。](../../media/publish-to-teams.png)
 
 1. Teams ツールキット パネルの **[ライフサイクル]** で **[発行]** を選びます。
 
@@ -16,14 +16,14 @@
 
     a. ![アプリが組織ストアに発行されたときのトースト メッセージのスクリーンショット。](../../media/published-successfully.png)
 
-    a. ![Teams 管理センターのスクリーンショット。](../../media/admin-portal.png)
+    b. ![Teams 管理センターのスクリーンショット。](../../media/admin-portal.png)
 
 1. Teams 管理センターの **[アプリの管理]** メニュー内で、**[名前で検索]** テキストボックスを見つけます。 
-1. 「**hello-tab**」と入力して、アプリの一覧をフィルター処理します。 次に、**アプリを選んで**アプリの詳細を表示します。
+1. 「**hello-tabdev**」と入力して、アプリの一覧をフィルター処理します。 次に、**アプリを選んで**アプリの詳細を表示します。
 
     ![Teams 管理センターのアプリの検索を示すスクリーンショット。](../../media/search-app-dev-portal.png)
 
-1. **hello-tab** アプリの詳細パネルで、**[発行]** を選びます。
+1. **hello-tabdev** アプリの詳細パネルで、**[発行]** を選びます。
 
     ![Teams 管理センターでアプリを発行するスクリーンショット。](../../media/admin-publish-app.png)
 
@@ -38,7 +38,7 @@
 ## タスク 2:ストアからアプリをインストールする
 
 1. Microsoft Teams クライアントを開くか、**Microsoft 365 テナントの資格情報**を使用して Microsoft Teams オンライン ([teams.microsoft.com](teams.microsoft.com)) にサインインします。
-2. Microsoft Teams で **[アプリ]** に移動し、組織ストアを表示します。 **[組織用に構築]** で、**[hello-tab]** タイルを選びます。
+2. Microsoft Teams で **[アプリ]** に移動し、組織ストアを表示します。 **[組織用に構築]** で、**[hello-tabdev]** タイルを選びます。
 
     a. ![hello-tab アプリが強調表示されている組織ストアのスクリーンショット。](../../media/org-store.png)
 
