@@ -52,14 +52,14 @@ lab:
 | `.vscode/` | ローカル デバッグ用の VSCode ファイル。 |
 | `appPackage/` | Teams アプリ マニフェストを含むアプリ パッケージ ファイル。 |
 | `infra/` | Azure リソースをプロビジョニングするためのテンプレート。 |
-| `index.js` | アプリケーション エントリ ポイントと `restify` ハンドラー。 |
-| `teamsBot.js` | Teams アクティビティ ハンドラー。  |
+| `index.ts` | アプリケーション エントリ ポイントと `restify` ハンドラー。 |
+| `teamsBot.ts` | Teams アクティビティ ハンドラー。  |
 
 ## タスク 2:検索機能を完成させる
 
 このソリューションには、Graph クエリで使用する検索クエリ文字列の値を格納するためのコードがありません。  この値を `searchQuery` という名前の変数に格納するようにコードを更新します。
 
-1. **TeamsBot.ts** ファイルに移動します。
+1. **teamsBot.ts** ファイルに移動します。
 2. `handleTeamsMessagingExtensionQuery` メソッドで、**[// Get the search context from the query parameters]\(クエリ パラメーターから検索コンテキストを取得します\)** というコメントを見つけます。 81 行目で、次の行に以下のコード行を追加します。
 
     ```JavaScript
@@ -74,7 +74,7 @@ lab:
 
       `// Use the Graph API to search for users by their display name.`
 
-2. 次のコード行で、`path` を以下の API パスに置き換えます。
+2. 次のコード行で、`PATH` を以下の API パスに置き換えます。
 
      ```TypeScript
      /users?$search="displayName:${searchQuery}"&$count=true
@@ -104,8 +104,8 @@ lab:
 
 1. [portal.azure.com](portal.azure.com) で、**Microsoft 365** 管理者アカウントを使用して Azure portal にサインインします。
 2. 左側のナビゲーション メニューで、**Microsoft Entra ID** に移動します。
-3. **[管理] > [アプリの登録] > [すべての登録]** に移動します。
-4. プロビジョニング中に作成された **ContactDetails** アプリの登録を選択します。
+3. **[管理] > [アプリの登録] > [すべてのアプリケーション]** に移動します。
+4. プロビジョニング中に作成された **Contact Details** アプリの登録を選択します。
 5. **[管理] > [API のアクセス許可]** に移動します。
 6. **[+アクセス許可の追加]** を選択します。
 7. **Microsoft Graph** を選択します。
