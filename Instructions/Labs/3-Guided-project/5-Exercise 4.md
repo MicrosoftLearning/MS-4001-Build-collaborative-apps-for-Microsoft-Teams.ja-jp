@@ -157,7 +157,7 @@ lab:
 2. 次の import ステートメントを 2 行目に追加します。
 
     `import { ResetPasswordCommandHandler } from "../resetPasswordCommandHandler";`
-3. 20 行目で、`command` プロパティの `commands` 配列を更新して、新しいハンドラーを初期化するステートメントを含めます。`new ResetPasswordCommandHandler().  The updated ` コマンド オブジェクトは次のようになります。
+3. 20 行目で、`command` プロパティの `commands` 配列を更新して、新しいハンドラーを初期化するステートメント (`new ResetPasswordCommandHandler()`) を含めます。  更新された `command` オブジェクトは次のようになります。
 
    ```json
    command: {    enabled: true,    commands: [new HelloWorldCommandHandler(), new ResetPasswordCommandHandler()],  },
