@@ -130,7 +130,6 @@ lab:
     import { AdaptiveCards } from "@microsoft/adaptivecards-tools";
     import rawResetPasswordCard from "./adaptiveCards/resetPassword.json";
    ```
-
 3. import ステートメントの下に、コマンド ハンドラーを実装するための次のコードを追加した後、ファイルを保存します。
 
    ```typescript
@@ -260,6 +259,7 @@ lab:
                     echo "::set-teamsfx-env BOT_DOMAIN=${endpoint:8}"
                 fi
      ```
+     
 ## 作業を確認
 
 以下のようにアプリをローカルで実行して機能をテストします。
