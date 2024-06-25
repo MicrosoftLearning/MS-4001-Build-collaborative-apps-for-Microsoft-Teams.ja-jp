@@ -37,7 +37,7 @@
 
 ## タスク 2:ストアからアプリをインストールする
 
-1. Microsoft Teams クライアントを開くか、**Microsoft 365 テナントの資格情報**を使用して Microsoft Teams オンライン ([teams.microsoft.com](teams.microsoft.com)) にサインインします。
+1. Microsoft Teams クライアントを開くか、**Microsoft 365 テナントの資格情報**を使用して Microsoft Teams オンライン ([teams.microsoft.com](https://teams.microsoft.com/)) にサインインします。
 2. Microsoft Teams で **[アプリ]** に移動し、組織ストアを表示します。 **[組織用に構築]** で、**[hello-tabdev]** タイルを選びます。
 
     a. ![hello-tab アプリが強調表示されている組織ストアのスクリーンショット。](../../media/org-store.png)
