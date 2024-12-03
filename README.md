@@ -1,3 +1,5 @@
+**このコースは **2024 年 8 月 30 日**に廃止されます。コースが廃止されると、すべての GitHub リポジトリが削除されるのでご了承ください。**
+
 # MS-4001:Microsoft Teams 用のコラボレーション アプリを構築する
 
 **あなたは MCT ですか?** - [MCT 向けの GitHub ユーザー ガイド](https://microsoftlearning.github.io/MCT-User-Guide/)をご覧ください
